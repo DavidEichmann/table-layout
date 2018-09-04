@@ -114,6 +114,7 @@ module Text.Layout.Table
 -- TODO ColSpec:     add some kind of combinator to construct ColSpec values (e.g. via Monoid, see optparse-applicative)
 
 import qualified Control.Arrow                                   as A
+import           Data.Semigroup
 import           Data.List
 import           Data.Maybe
 import           Data.Default.Class
